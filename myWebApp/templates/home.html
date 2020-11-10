@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h1> This is my homepage</h1>
+
+	<form action="imageupload/imageprocess" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<input type="file" id="image" name="image"/>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
