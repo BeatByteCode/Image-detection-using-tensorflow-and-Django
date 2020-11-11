@@ -1,26 +1,24 @@
 # Image-detection-uing-tensorflow-and-Django-framework
+-------------------------------------------------------------------------------
+### make sure before running you have the following installed:
 
-# make sure before running you have the following installed:
-
--tensorflow
--keras
--django
+- tensorflow
+- keras
+- django
 
 --------------------------------------------------------------------------------
-# if not then you install by using this command :
+### if not then you install by using this command :
 
--pip install tensflow
--pip install keras
--pip install django
+- pip install tensflow
+- pip install keras
+- pip install django
 
 
-# steps to run this application
+### steps to run this application
 - open cmd or any other as you prefered
 - navigate to myWebApp
 - run the django server by typing
   python.exe .\manage.py runserver
 - open browser and type localhost:8000/imageupload
-
-
-
+- navigate to myWebApp/setting.py and add your django secret key
  
